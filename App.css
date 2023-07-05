@@ -1,0 +1,37 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .data-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .data-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .data-row span {
+    flex-basis: 80px;
+  }
+  
+  input[type='text'],
+  input[type='email'] {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .save-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
